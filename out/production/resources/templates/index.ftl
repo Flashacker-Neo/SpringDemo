@@ -6,5 +6,14 @@
 <h1>Coucou</h1>
 
 <div>
-    ${att1}
+    <form action="/save" method="POST">
+        <label>First name</label></br>
+        <input type="text" name="firstname">
+        </br>
+        <label>Last name</label></br>
+        <input type="text" name="lastname">
+        </br>
+        <input type="submit" value="Envoyer">
+    </form>
+
 </div>
